@@ -1,0 +1,502 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.navbar a{font-family: 'Quintessential', cursive;}
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #4b7bec;
+  overflow: hidden;
+  
+}
+
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #4b7bec;
+  color: white;
+}
+
+.navfloat{float: right;
+	 margin-right: 30px;
+}
+
+
+.cart{height: 350px; margin-left: 5px; margin-right: 5px;background-color: red; margin: 20px; border-radius: 30px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-image:
+    linear-gradient(184deg, rgba(255,251,251,0.4724264705882353) 0%, rgba(75,123,224,1) 100%),
+    url('../img/bg.jpg');}
+.carth1{font-family: 'Yellowtail', cursive; color: white; font-size:30px;}
+
+.imgcart{width: 180px;
+		 height: 180px; 
+		  background-image: url("../img/MyPic.png");
+		 margin-top: 10px;
+		 border-radius: 50% 50% / 50% 50%;
+		 box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+		}
+.imgcart:hover{
+	-webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+ -webkit-transition-duration: 1s;
+ -moz-transition-duration: 1s;
+ -o-transition-duration: 1s;
+  transition-duration: 1s; ;
+}
+
+
+.button {
+  display: inline-block; 
+}
+
+.button button{
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border: none;
+	background-color: white;
+	border-radius: 50% 20% / 10% 40%;
+	color: #4b7bec;
+}
+
+.button button:hover{
+	border-radius: 10% 40% / 50% 20% ;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: #4b7bec;
+	border: 1px solid white;
+	color: white;
+
+}
+
+
+
+.content{height: 500px; background:white ;margin: 20px; border-radius: 30px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px}
+
+
+
+.info{float: left; width: 50%; height: 500px ; display: inline-block}
+
+.info h1{text-align: center;
+font-family: 'Comforter', cursive;
+font-size: 50px;
+color: #4b7bec;
+}
+.info p{
+	text-align: justify;
+  text-justify: inter-word;
+  padding-left: 50px;
+  padding-right: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+
+
+.gallery{float: right; width: 50%; height: 500px;  display: inline-block}
+
+
+.containerr {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 90%;
+  margin-top: 30px;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100%);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.skills{height: 400px; margin: 20px; border-radius: 30px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; background-image:
+    linear-gradient(180deg, rgba(255,255,255,0.4724264705882353) 0%, rgba(96,96,96,0.5144432773109244) 0%, rgba(5,5,5,1) 65%),
+    url("../img/bg-sk.jpg") }
+
+ .skills h1{
+ 	color: white;
+ 	font-family: 'Comforter', cursive;
+ 	font-size: 50px;
+
+ }
+
+
+
+.container {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.skillset {
+	margin-top: 50px;
+}
+
+.skill-lockup {
+	max-width: 450px;
+	width: 100%;
+	float: left;
+	margin-right: 40px;
+}
+
+.mr {
+	margin-right: 0;
+}
+
+.mb {
+	margin-bottom: 5px;
+}
+
+.skill-info {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.skill-name {
+	float: left;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.skill-status {
+	float: right;
+	color: white;
+	font-size: .8em;
+	font-family: 'Titillium Web', sans-serif;
+}
+.skill-bar {
+	display: block;
+	max-width: 450px;
+	width: 100%;
+	height: 11px;
+	background: #e3e3e5;
+	clear: both;
+	margin: 20px 0;
+}
+
+.skill-level {
+	display: table;
+	height: 11px;
+}
+.communication, .planning,
+.learning, .programming,
+.visual-design, .ux-design {
+	background: #4b7bec;
+}
+
+.communication {
+	width: 40%;
+	-webkit-animation: communication 10s linear;
+	animation: communication 10s linear;
+}
+
+.planning {
+	width: 15%;
+	-webkit-animation: planning 10s linear;
+	animation: planning 10s linear;
+}
+
+.learning {
+	width: 45%;
+	-webkit-animation: learning 10s linear;
+	animation: learning 10s linear;
+}
+
+.programming {
+	width: 30%;
+	-webkit-animation: programming 10s linear;
+	animation: programming 10s linear;
+}
+
+.visual-design {
+	width: 20%;
+	-webkit-animation: visual-design 10s linear;
+	animation: visual-design 10s linear;
+}
+
+.ux-design {
+	width: 10%;
+	-webkit-animation: ux-design 10s linear;
+	animation: ux-design 10s linear;
+}
+
+
+/*-----------------------
+	  	Animations 
+-------------------------*/ 
+@-webkit-keyframes communication {
+	from { width: 0%; }
+	to { width: 40%; }
+}
+
+@keyframes communication {
+	from { width: 0%; }
+	to { width: 40%; }
+}
+
+/*-----------------------
+	Planning Animation 
+-------------------------*/
+@-webkit-keyframes planning {
+	from { width: 0%; }
+	to { width: 15%; }
+}
+
+@keyframes planning {
+	from { width: 0%; }
+	to { width: 15%; }
+}
+
+/*-----------------------
+	Learning Animation 
+-------------------------*/ 
+@-webkit-keyframes learning {
+	from { width: 0%; }
+	to { width: 45%; }
+}
+
+@keyframes learning {
+	from { width: 0%; }
+	to { width: 45%; }
+}
+
+/*-----------------------
+  Programming Animation 
+-------------------------*/ 
+@-webkit-keyframes programming {
+	from { width: 0%; }
+	to { width: 30%; }
+}
+
+@keyframes programming {
+	from { width: 0%; }
+	to { width: 30%; }
+}
+
+/*-----------------------
+Visual-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes visual-design {
+	from { width: 0%; }
+	to { width: 20%; }
+}
+
+@keyframes visual-design {
+	from { width: 0%; }
+	to { width: 20%; }
+}
+
+/*-----------------------
+   UX-Design Animation  
+-------------------------*/ 
+@-webkit-keyframes ux-design {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+@keyframes ux-design {
+	from { width: 0%; }
+	to { width: 10%; }
+}
+
+
+/*-----------------------
+	  Media queries
+-------------------------*/ 
+
+
+@media screen and (max-width: 955px) {
+	.skillset {
+		padding: 20px;
+	}
+	.skill-lockup {
+		max-width: 700px;
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.skill-bar {
+		max-width: 700px;
+		width: 100%;
+		height: 10px;
+	}
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	.content{height: 1200px;}
+	.skills{height: 530px;}
+	.skillset{margin-top: 10px;}
+
+
+    }
+
+
+
+.archive{height: 450px; margin: 20px; border-radius: 30px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+.archright{width: 50%; height: 450px; background-image: url(../img/diploma.png); display: inline-block ; background-repeat: no-repeat; margin-left: 60px;}
+
+
+
+
+
+
+
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+footer{height: 100px ; background-color: white; }
